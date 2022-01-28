@@ -1,0 +1,80 @@
+header {
+    /* position: relative;
+    width: 100%;
+    min-height: 680px;
+    /* z-index: 1; */
+    /* background-position: center; */
+}
+
+.concept {
+    /* width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 5%;
+    color: white;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: bold; */
+}
+
+nav {
+    /* position: relative;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    padding: 0 5%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    color: white;
+    transition: all 0.5s ease; */
+}
+
+.fixed {
+    /* background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease; */
+}
+
+header nav .logo {
+    /* flex: 25%;
+    color: white;
+    font-weight: bold;
+    font-size: 32px; */
+}
+
+header nav a {
+    /* color: white; */
+}
+
+header nav .g_nav {
+    /* flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 50px; */
+}
+
+header nav .g_nav .menu {
+    /* padding: 0 25px;
+    cursor: pointer; */
+}
+._click:hover {
+    /* opacity: 0.8; */
+}
+
+header nav .sign {
+    /* flex: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    line-height: 50px; */
+}
+
+header nav .signin {
+    /* cursor: pointer; */
+}
