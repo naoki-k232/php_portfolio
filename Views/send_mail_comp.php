@@ -82,19 +82,19 @@ try {
     $mail->isSMTP();                          // SMTPの使用宣言
     $mail->Host = 'smtp.gmail.com';   // SMTPサーバーを指定
     $mail->SMTPAuth = true;                 // SMTP authenticationを有効化
-    $mail->Username = 'suzukiitirou255@gmail.com';   // SMTPサーバーのユーザ名
+    $mail->Username = 'test@gmail.com';   // SMTPサーバーのユーザ名
     $mail->Password = 'lnc9D3wSgxR#';           // SMTPサーバーのパスワード
     // $mail->SMTPSecure = false; // ★★★ 暗号化（TLS)を無効
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // ★★★ 暗号化（TLS)を有効に
     $mail->Port = 587; // TCPポートを指定（tlsの場合は465や587）
 
     // 送受信先設定（第二引数は省略可）
-    $mail->setFrom('suzukiitirou255@gmail.com', '鈴木一郎[テスト管理人]'); // 送信者
+    $mail->setFrom('test@gmail.com', '鈴木一郎[テスト管理人]'); // 送信者
     $mail->addAddress($params['email'], $params['name'].'様');   // 宛先
     //$mail->addAddress($_POST['mail'], $params['name'].'様');   // 宛先
     //$mail->addReplyTo('replay@example.com', 'お問い合わせ'); // 返信先
     //$mail->addCC('cc@example.com', '受信者名'); // CC宛先
-    $mail->Sender = 'suzukiitirou255@gmail.com'; // Return-path
+    $mail->Sender = 'test@gmail.com'; // Return-path
 
     // 送信内容設定
     $mail->Subject = '【神社仏閣レビュー】パスワード再設定用URLの送付';
